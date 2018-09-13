@@ -1,0 +1,23 @@
+.container {
+  border: 2px solid #000000;
+  margin-top: 10vh;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 75px;
+}
+
+.first-title {
+  text-align: right;
+}
+
+.second-title {
+  text-align: left;
+  position: absolute;
+  bottom: 0px;
+}
+
+.container.diagonal-rising {
+  background: linear-gradient(to left bottom, transparent 0%, transparent 48.9%, #000000 49%, #000000 51%, transparent 51.1%, transparent 100%);
+}
